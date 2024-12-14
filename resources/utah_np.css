@@ -1,0 +1,73 @@
+/*
+  light green: #B5DC98
+  dark brown (accent 1): #593825
+  medium blue (accent 2): #3F647F
+*/
+
+a {
+  color: #3F647F;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #593825;
+}
+
+body {
+  background-color: #C6E4A4;
+  padding: 0 40px 30px 40px;
+}
+
+h1 {
+  text-align: center;
+  color: #593825;
+}
+
+h2 {
+  color: #593825;
+}
+
+div.image {
+  background-color: #3F647F;
+  width: 500px;
+  height: 500px;
+  padding: 6px 6px 6px 6px;
+}
+
+p {
+  font-size: 1.1em;
+}
+
+td.link_table {
+  padding: 5px 20px 50px 20px;
+}
+
+th.info_table, td.info_table {
+  text-align: center;
+  border-color: #3F647F;
+  border-style: ridge;
+  border-width: 6px;
+  padding: 12px 24px;
+}
+
+th.info_table_direct, td.info_table_direct {
+  text-align: center;
+  border-color: #3F647F;
+  border-style: ridge;
+  border-width: 6px;
+  padding: 12px 24px;
+  width: 600px;
+}
+
+table.info_table {
+  margin-left: auto;
+  margin-right: auto;
+  border-collapse: collapse;
+  margin-top: 50px;
+}
+
+table.link_table {
+  margin-left: auto;
+  margin-right: auto;
+}
